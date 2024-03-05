@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mingi's portfolio</title>
+    <meta name="description" content="portfolio" />
+    <meta name="author" content="mingi" />
+    <link rel="icon" type="image/png" href="imgs/favicon.PNG" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/16cb9b9fd8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?¬family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="main.js" defer></script>
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar">
+    <!-- Navbar -->
+    <nav id="navbar">
+      <div class="navbar_logo">
+        <i class="fab fa-diaspora"></i>
+        <a href="#">Mingi</a>
+      </div>
+
+      <ul class="navbar__menu">
+        <li class="navbar_menu_item active" data-link="#home">Home</li>
+        <li class="navbar_menu_item" data-link="#about">About</li>
+        <li class="navbar_menu_item" data-link="#skills">Skills</li>
+        <li class="navbar_menu_item" data-link="#work">My work</li>
+        <!-- <li class="navbar_menu_item" data-link="#testimonials">Testimonial</li> -->
+        <li class="navbar_menu_item" data-link="#contact">Contact</li>
+      </ul>
+
+      <!-- Toggle button -->
+      <button class="navbar__toggle-btn">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+
+    <!-- Home -->
+    <section id="home">
+      <div class="home__container">
+        <img
+          src="imgs/사진.jpg"
+          alt="mingi's profile photo"
+          class="home_avatar"
+        />
+        <h1 class="home_title">
+         백엔드 개발자를 <br />지원하는 <br />전민기입니다
+        </h1>
+        <h2 class="home_description">Software Engineer,Frontend</h2>
+        <button class="home_contact" data-link="#contact">Contact Me</button>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section section__container">
+      <h1>About me</h1>
+    
+      학교와 동아리, 그리고 부트캠프에서 여러 팀프로젝트와 솔로 프로젝트를 하면서,</br> 
+      팀원간의 원활하고 적극적인 소통, 경청의 중요성을 배웠습니다. </br> 
+        </br>앞으로 같이 일하게 될 팀을 위해서 빠르게 성장할 수 있는
+        개발자가 되겠습니다. </br>그리고 문제해결을 위해 깊게 고민하고
+        솔루션을 탐색할 수 있는 개발자가 되겠습니다.
+      </p>
+      <div class="about_majors">
+        <div class="major">
+          <div class="major_icon">
+            <i class="fa-brands fa-html5"></i>
+          </div>
+          <h2 class="maior_title">HTML/CSS</h2>
+          <div class="major_description"></div>
+        </div>
+        <div class="major">
+          <div class="major_icon">
+            <i class="fa-brands fa-js"></i>
+          </div>
+          <h2 class="maior_title">Javascript</h2>
+          <div class="major_description"></div>
+        </div>
+        <div class="major">
+          <div class="major_icon">
+            <i class="fa-brands fa-react"></i>
+          </div>
+          <h2 class="maior_title">React</h2>
+          <div class="major_description"></div>
+        </div>
+        <div class="major">
+            <div class="major_icon">
+                <i class="fa-solid fa-n"></i>
+            </div>
+            <h2 class="maior_title">Node.Js</h2>
+            <div class="major_description"></div>
+          </div>
+      </div>
+      <div class="about_schools">
+        
+        <div class="school">
+            <h2>Education</h2>
+            <!-- <img src="imgs/codestate.png" alt="myongji" class="school_logo" /> -->
+            <div class="school_description">
+              <p class="school_name">
+                2022.06-2022.12 &nbsp; 코드스테이츠 프론트엔드 부트캠프 수료   
+              </p>
+            </div>
+        </div>
+        <div class="school">
+          <div class="school_description">
+            <p class="school_name">
+                2015.03-2019.08 &nbsp;  명지대학교 컴퓨터공학과 졸업
+            </p>
+          </div>
+        </div>
+        <div class="school">
+            <h2>Activity</h2>
+            <div class="school_description">
+              <p class="school_name">
+                2016 - 2018  &nbsp; 멋쟁이 사자처럼
+              </p>
+              <p class="school_name">
+                2015 - 2017  &nbsp; 교내 학술 동아리
+              </p>
+        
+            </div>
+          </div>
+
+        <div class="school">
+            <h2>Certificate</h2>
+            <div class="school_description">
+              <p class="school_name">
+                2019  &nbsp; 정보처리기사 취득
+              </p>
+            </div>
+        </div>
+      
+        <div class="school">
+            <h2>Awards</h2>
+            <div class="school_description">
+              <p class="school_name">
+                2018  &nbsp; 한이음 ict공모전 입상
+              </p>
+              <p class="school_name">
+                2017  &nbsp; 교내 모바일 앱 개발 경진대회
+              </p>
+            </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <div class="section__container">
+        <h1>Skills</h1>
+        <h2>Skills & Attributes</h2>
+        <p></p>
+        <div class="skillset">
+          <div class="skillset_left">
+            <h3 class="skillset_title">Skills</h3>
+            <div class="skill">
+              <div class="skill_description">
+                <span>JavaScript</span>
+                <span>70%</span>
+              </div>
+              <div class="skill_bar">
+                <div class="skill_value" style="width: 70%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill_description">
+                <span>React</span>
+                <span>70%</span>
+              </div>
+              <div class="skill_bar">
+                <div class="skill_value" style="width: 70%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill_description">
+                <span>Node.js</span>
+                <span>50%</span>
+              </div>
+              <div class="skill_bar">
+                <div class="skill_value" style="width: 50%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill_description">
+                <span>Next.js</span>
+                <span>50%</span>
+              </div>
+              <div class="skill_bar">
+                <div class="skill_value" style="width: 50%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill_description">
+                <span>TypeScript</span>
+                <span>50%</span>
+              </div>
+              <div class="skill_bar">
+                <div class="skill_value" style="width: 50%"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skillset_right">
+            <div class="tools">
+              <h3 class="skillset_title">Tools</h3>
+              <ul class="tools_list">
+                <li><span>Visual Studio Code</span></li>
+                <li><span>Git</span></li> 
+                <li><span>Figma</span></li>
+                <li><span>Android Studio</span></li>
+                <li><span>Eclipse</span></li>
+              </ul>
+            </div>
+            <div class="etc">
+              <h3 class="skillset_title">Etc</h3>
+              <ul class="etc_list">
+                <li><span>TypeScript</span></li>
+                <li><span>styledComponent</span></li>
+                <li><span>moduleCss</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Work-->
+    <section id="work" class="section">
+      <div class="section__container">
+        <h1>My work</h1>
+        <h3>Projects</h3>
+        <div class="work_categories">
+          <button class="category_btn selected" data-filter="*">
+            All<span class="category__count"> 5</span>
+          </button>
+          <button class="category_btn" data-filter="react">
+            React<span class="category__count"> 3</span>
+          </button>
+          <button class="category_btn" data-filter="nextjs">
+            Next.js<span class="category__count"> 1</span>
+          </button>
+          <button class="category_btn" data-filter="vanilla">
+            Vanilla JS <span class="category__count"> 1</span>
+          </button>
+        
+      
+
+        <div class="work__projects">
+          <a
+            href="https://www.notion.so/Class4989-120ffd2b58e944dab56d224dadd2961c"
+            class="project"
+            target="blank"
+            data-type="nextjs"
+          >
+            <img
+              class="project__img"
+              src="imgs/projects/class4989.png"
+              alt="projecct"
+            />
+            <div class="project_description">
+              <h3>노션 설명 바로가기</h3>
+              <span>온라인강의 웹앱 플랫폼</span>
+              <span>2022.11.08~2022.12.07</span>
+              <span>FE:3명 BE:3명</span>
+              <span>Nextjs.Typescript.modulecss.pwa.Aws</span>
+            </div>
+          </a>
+
+          <a
+            href="https://www.notion.so/StackOverFlow-8d871cf5f33f437f999b8c02e1f25017"
+            class="project"
+            target="blank"
+            data-type="react"
+          >
+            <img
+              class="project__img"
+              src="imgs/projects/질문.png"
+              alt="projecct"
+            />
+            <div class="project_description">
+                <h3>노션 설명 바로가기</h3>
+              <span>스택오버플로우 클론 </span>
+              <span>2022.10.24~2022.11.07</span>
+              <span>FE:3명 BE:3명</span>
+              <span>React.Typescript.StyledComponent.vercel</span>
+            </div>
+          </a>
+
+          <a
+            href="https://www.notion.so/Todo-memo-4626ac64eb834fa7a13277c1db6efff3"
+            class="project"
+            target="blank"
+            data-type="react"
+          >
+            <img
+              class="project__img"
+              src="imgs/projects/todo.png"
+              alt="projecct"
+            />
+            <div class="project_description">
+                <h3>노션 설명 바로가기</h3>
+              <span>Todomemo</span>
+              <span>2022.10.02~2022.10.18</span>
+              <span>솔로 프로젝트</span>
+              <span>React.StyledComponent.fetch</span>
+            </div>
+          </a>
+
+          <a
+            href="https://www.notion.so/067a030e510142d8a114ba08c9baa93c"
+            class="project"
+            target="blank"
+            data-type="react"
+          >
+            <img
+              class="project__img"
+              src="imgs/projects/넷플릭스.png"
+              alt="projecct"
+            />
+            <div class="project_description">
+                <h3>노션 설명 바로가기</h3>
+              <span>넷플릭스 클론코딩 </span>
+              <span>2022.9.25~2022.10.07</span>
+              <span>솔로 프로젝트</span>
+              <span>React.StyledComponent.Axios</span>
+            </div>
+          </a>
+
+          <a
+            href="https://www.notion.so/d26f2690e76f4b29abda47a6aeb9eb98"
+            class="project"
+            target="blank"
+            data-type="vanilla"
+          >
+            <img
+              class="project__img"
+              src="imgs/projects/포트폴리오.png"
+              alt="projecct"
+            />
+            <div class="project_description">
+                <h3>노션 설명 바로가기</h3>
+              <span>반응형 포트폴리오 </span>
+              <span>2022.05.04~2022.05.17</span>
+              <span>솔로 프로젝트</span>
+              <span>html,css,js</span>
+            </div>
+          </a>
+        </div>
+        <h2>#PROJECT EXPERIENCE</h2>
+        <div class="project_experience">
+            <div style="background-color: aliceblue;" class="proex">
+                <h2 >#1 Class4989  &nbsp;</h2>
+                <h3 style="color:grey">2022.11.08~2022.12.07</h3>
+            </div>
+            <div class="exbox">
+                Class4989는  **‘누구나 쉽게 배움을 공유하고 배울 수 있다.’ 는 취지를 기반으로 한 교육 모바일 웹 앱 서비스입니다.**</br></br>
+                모바일 기반 웹앱으로 제작하였습니다. Next.js의 SSG를 활용하여 사용자 경험을 증대 시켰으며 메타 태그를 활용하여 검색엔진 최적화(SEO)에 중점을 두었습니다. 
+                </br></br>* 지속적인 서비스 관리를 위해 Webhook(디스코드)과 MongoDB를 활용한 에러 핸들링 기능</br>
+                * 멀티파트 폼데이터를 이용한 강좌 업로드 전페이지,</br>* 유저 상황에 따른 컨텐츠 상세화면 페이지,</br>* 메인페이지, 마이페이지,네브바 컴포넌트 부분을 맡아 진행하였습니다.
+                </br></br>프로젝트 팀장으로 일정관리를 맡았습니다.<br>
+                    > 매일 일과시간 전, 어떠한 컴포넌트를 개발 할지, 개발을 어떻게 하면 좋을지 그리고 백엔드와의 진행상황에 대해 회의 하였습니다.      
+                    <p style="color: grey;">react node.js typescript nextjs moduleCss </p>
+                <div class="contact__github">
+                    <a href="https://github.com/codestates-seb/seb40_main_008" translate="_blank"> 
+                      <h3 style="color:red">> 깃헙주소: https://github.com/codestates-seb/seb40_main_008</h3>
+                    </a>
+                    <a href=" https://class4989-sage.vercel.app/" translate="_blank"> 
+                      <h3 style="color:red">> 배포주소: https://class4989-sage.vercel.app/</h3>
+                    </a>
+                </div>  
+
+
+               
+            </div>
+            <div class="proex" style="background-color: aliceblue;">
+                <h2 >#2 StackOverflow &nbsp;</h2>
+                <h3 style="color:grey">2022.10.24~2022.11.07</h3>
+            </div>
+            <div class="exbox">
+                코드스테이츠 프리프로젝트로 스택오버플로우 사이트를 6명의 팀원과 그대로 구현하였습니다.</br></br>
+                CRUD 기능을 중점적으로 구현하는 것에 목표를 두었고 타입스크립트를 적용하여 리액트 프로젝트로 진행하였습니다.</br></br>
+                * 상세질문 조회 페이지</br>
+                * 답변 작성 수정 삭제 기능 </br>
+                * 투표기능</br>
+                * 질문 검색 기능</br>
+                
+                <p style="color: grey;">react node.js typescript styledComponent axios</p>
+                <div class="contact__github">
+                    <a href="https://github.com/podoco/seb40_pre_002" translate="_blank">
+                        <h3 style="color:red">> 깃헙주소: https://github.com/podoco/seb40_pre_002</h3>
+                    </a>
+                </div>  
+            </div>
+            <div class="proex" style="background-color: aliceblue;">
+                <h2 >#3 Todo-Memo&nbsp;</h2>
+                <h3 style="color:grey">2022.10.02~2022.10.18</h3>
+            </div>
+            <div class="exbox">
+                    피그마로 작업후,</br>
+                    jsonserver를 이용하여 서버를 띄어주고 fetch를 사용해 투두메모장을 구현한 솔로 프로젝트입니다.
+                </p>
+                <p  style="color:grey">react styledComponent fetch</p>
+                <div class="contact__github">
+                    <a href="https://github.com/codestates-seb/seb40_main_008" translate="_blank">
+                        <h3 style="color:red">> 깃헙주소: https://github.com/podoco/todo-memo</h3>
+                    </a>
+                </div>  
+            </div>
+            <div class="proex" style="background-color: aliceblue;">
+                <h2 >#4 Netflix 클론코딩 &nbsp;</h2>
+                <h3 style="color:grey">2022.09.25~2022.10.06</h3>
+            </div>
+            <div class="exbox">
+                   인프런의 강좌를 듣고 따라한 넷플릭스 클론 코딩 프로젝트입니다.</br></br>
+                   배운것은,</br></br>
+                   * Axios를 활용하여 movie db api 요청 </br>
+                   * tailwindCss 사용 </br>
+                   * 영화를 상세히 보여주는 모달 생성 </br>
+                   * useParams 이용하여 영화 상세페이지 구현하기 </br>
+                   * useLocation을 이용한 검색 페이지 구현하기 </br>
+                   * 모달 창 외부 클릭시 모달 닫게 만드는 custom hooks </br>
+                   * swiper 모듈을 이용한 터치 슬라이드 구현 </br>
+                
+                <p style="color:grey">react tailwindCss axios</p>
+                <div class="contact__github">
+                    <a href="https://github.com/podoco/netflix-clone" translate="_blank">
+                        <h3 style="color:red">> 깃헙주소: https://github.com/podoco/netflix-clone</h3>
+                    </a>
+                    <a href="https://podoco.github.io/netflix-clone/" translate="_blank">
+                        <h3 style="color:red">> 배포주소: https://podoco.github.io/netflix-clone/</h3>
+                    </a>
+                </div>  
+            </div>
+            <div class="proex" style="background-color: aliceblue;">
+                <h2 >#5 반응형 포트폴리오 &nbsp;</h2>
+                <h3 style="color:grey">2022.05.04~ 2022.05.17</h3>
+            </div>
+            <div class="exbox">
+                이 페이지입니다.
+                <p style="color:grey">html css js</p>
+                <div class="contact__github">
+                    <a href="https://github.com/podoco/portfolio" translate="_blank">
+                        <h3 style="color:red">> 깃헙주소: https://github.com/podoco/portfolio</h3>
+                    </a>
+                    <a href="https://podoco.github.io/portfolio/" translate="_blank">
+                        <h3 style="color:red">> 배포주소: https://podoco.github.io/portfolio</h3>
+                    </a>
+                </div>  
+            </div>
+        </div>
+
+    </section>
+
+    <!-- testimonials
+    <section id="testimonials" class="section">
+      <div class="section__container">
+        <h1>Testimonial</h1>
+        <h3>See what they say about me</h3>
+        <div class="testimonials">
+          <div class="testimonial">
+            <img
+              src="imgs/testimonial/person2.PNG"
+              alt="people"
+              class="testimonial__avatar"
+            />
+            <div class="testimonial__speech-bubble">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                fuga libero nulla eveniet aperiam laborum, quis provident
+                quibusdam officiis reprehenderit, placeat neque perspiciatis
+                vero explicabo tempora, dignissimos accusantium inventore
+                ducimus!
+              </p>
+              <p class="name"><a href="">Rihana</a>/it</p>
+            </div>
+          </div>
+
+          <div class="testimonial">
+            <div class="testimonial__speech-bubble">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                fuga libero nulla eveniet aperiam laborum, quis provident
+                quibusdam officiis reprehenderit, placeat neque perspiciatis
+                vero explicabo tempora, dignissimos accusantium inventore
+                ducimus!
+              </p>
+              <p class="name"><a href="">Rihana</a>/it</p>
+            </div>
+            <img
+              src="imgs/testimonial/person.PNG"
+              alt="people"
+              class="testimonial__avatar"
+            />
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- contact -->
+    <section id="contact" class="section">
+      <h1 class="contact__title">Contact</h1>
+      <h2 class="contact__email">mingijeon83@gmail.com</h2>
+      <h2 class="contact__email">010-2790-8030</h2>
+      <div class="contact__links">
+        <a href="https://github.com/podoco" translate="_blank">
+            <i class="fa-brands fa-github"></i>
+          <!-- <i class="fa-brands fa-instagram"></i> -->
+          <!-- <i class="fa-brands fa-linkedin"></i> -->
+        </a>
+      </div>
+    </section>
+    <!-- Arrow up -->
+    <button class="arrow-up">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+  </body>
+</html>
